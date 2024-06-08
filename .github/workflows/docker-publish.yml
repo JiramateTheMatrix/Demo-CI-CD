@@ -29,4 +29,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository }}/demo-ci-cd:latest
+          tags: ghcr.io/${{ github.repository_owner }}/demo-ci-cd:latest
